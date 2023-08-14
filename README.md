@@ -32,4 +32,4 @@ CSS
 JavaScript (Vanilla)
 
 -Author
-[Your Name]
+Yurii Bahanin
