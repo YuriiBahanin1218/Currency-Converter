@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Currency Converter</title>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="title">Currency Converter</div>
+    <div class="time-container" id="timeContainer">
+      Loading time...
+    </div>
+
+    <div class="input-container">
+      <div class="border">
+        <input type="number" id="base" step="0.01" placeholder="Enter amount">
+      </div>
+      <div>
+        <select id="baseCurrency" class="currency-div"></select>
+      </div>
+    </div>
+
+    <div class="input-container">
+      <div class="border">
+        <input type="number" id="target" step="0.01" placeholder="Enter amount">
+      </div>
+      <div>
+        <select id="targetCurrency" class="currency-div"></select>
+      </div>
+    </div>
+
+    <p id="errorMessage" class="error-message"></p>
+    <div>
+      <div class="fromEqual">
+        <p id="fromEqual"></p>
+      </div>
+      <div class="toEqual">
+        <p id="toEqualValue"></p>
+        <p id="toEqualUnit" class="toEqualUnit"></p>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
